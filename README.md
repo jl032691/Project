@@ -3,10 +3,7 @@
 I chose to do the prediction on soccer data because I am a big fan of soccer. I love to play and watch soccer especially from England Premier League. There are currently 20 teams in the league, and each team has played 9 to 11 games in the season. England Premier League is one of the most competitive leagues in the world, and it is fun to predict which team will win the title. For this project, I want to predict, based on the current stats, which teams will be the top 4 teams in 2020-21 season because those teams get to play in the world’s biggest club competition called Champions League. 
 
 
-I collected data from 2014-15 season up to 2020-21 season (2020-21 is the current season). I wanted to scrap data for a few more years, but the data before 2014-15 season only had stats partially. With those data, I made two sets of data: one has the data just for the current season, and the other one has the data for the rest of the seasons. I used the latter data to make a prediction model and used that model to get the top 4 teams based on the current stats. The data has 9 variables: team, points, goals, goals allowed, shots on target, possession, fouls, saves by goalkeeper, and age. I set y variable with points and X variable with the rest except team.
-
-
-Feature definitions are as following
+I collected data from 2014-15 season up to 2020-21 season (2020-21 is the current season). I wanted to scrap data for a few more years, but the data before 2014-15 season only had stats partially. With those data, I made two sets of data: one has the data just for the current season, and the other one has the data for the rest of the seasons. I used the latter data to make a prediction model and used that model to get the top 4 teams based on the current stats. The data has 9 variables: team, points, goals, goals allowed, shots on target, possession, fouls, saves by goalkeeper, and age. I set y variable with points and X variable with the rest except team. Feature definitions are as following
 
 Points: total points earned in a season (win=3 points, draw=1 point, loss=0 point)
 
