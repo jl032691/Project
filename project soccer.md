@@ -1128,7 +1128,7 @@ sns.pairplot(data=soccer,vars= ['Points', 'Goals','Goals_Allowed', 'Shots_on_Tar
     <seaborn.axisgrid.PairGrid at 0x1d1fe61dd08>
 
 
-
+This png file doesn't work for some reason. Please check the file in the repository.
 
 ![png](output_18_1.png)
 
@@ -1357,7 +1357,7 @@ for i in range(0,len(X.columns)):
 
 #Two most impactful features were discovered to be goals and goals allowed.
 ```
-
+This png file doesn't work for some reason. Please check the file in the repository.
 
 ![png](output_27_0.png)
 
