@@ -7,14 +7,23 @@ I collected data from 2014-15 season up to 2020-21 season (2020-21 is the curren
 
 
 Feature definitions are as following
+
 Points: total points earned in a season (win=3 points, draw=1 point, loss=0 point)
+
 Goals: total number of goals made in a season
+
 Goals allowed: total number of goals conceded in a season 
+
 Shots on target: total number of shot attempts that would or does enter the goal if left unblocked in a season
+
 Possession: the average percentage a team possesses the ball during a game in a season
+
 Fouls: total number of fouls committed in a season
+
 Saves by goalkeeper: total number of saves made by goalkeeper in a season
+
 Age: the average age of players in a team
+
 
 
 I explored 4 models: linear regression, Lasso regression, KNN model, and Decision tree model. I chose these models because I was most familiar with these 4 models. Then, I performed a cross validation to find the best model and discovered that linear regression and Lasso regression have lower mean square error than the other 2. I chose Lasso regression because it has the lowest mean square error with 19.43. 
