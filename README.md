@@ -27,6 +27,7 @@ I explored 4 models: linear regression, Lasso regression, KNN model, and Decisio
 As a result, I found the top 4 teams, and those are Chelsea, Tottenham, Liverpool, and Aston Villa in order. Based on my model, Chelsea was predicted to be the champion of the 2020-21 season of England Premier League with approximately 65 points. The predicted points are smaller than the usual winning points because the current season is still going on, and the model used only partial stats. I also went on to get important features, and the features of goals and goals allowed were the most impactful features in the model. The figure in the markdown file shows that more goals can increase the points, and more goals allowed can decrease the points. (The figure is in the markdown file. I tried to get it here, but didn't work)
 
 Feature: [0] Goals Score: 0.66
+
 Feature: [1] Goals_Allowed Score: -0.62
 
 I want to conclude my report with some existing limitations. My X variable which contained the data from 2014-15 to 2019-20 season only had 6 seasons of data, and, in addition, I was only able to get 7 features. The prediction would have been better and more accurate if I had more rows of data and features in the model.  
