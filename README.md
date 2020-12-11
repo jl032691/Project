@@ -12,7 +12,7 @@ Goals: total number of goals made in a season
 
 Goals allowed: total number of goals conceded in a season 
 
-Shots on target: total number of shot attempts that would or does enter the goal if left unblocked in a season
+Shots on target: total number of shot attempts in a season that would or does enter the goal if left unblocked 
 
 Possession: the average percentage a team possesses the ball during a game in a season
 
